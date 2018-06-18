@@ -1,0 +1,147 @@
+/* jumbotron */
+.jumbotron {
+  text-align: center;
+  color: white;
+  padding-bottom: 8%;
+  margin-bottom: 0px;
+}
+
+.paral {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.paralsec {
+  background-image: url(../Photos/jumbotron.jpg);
+}
+
+.fade {
+  opacity: 0;
+}
+
+#profile {
+  height: 300px;
+  width: 300px;
+}
+
+#start {
+  background-color: transparent;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+#start:hover {
+  font-size: 60px;
+}
+
+#start:focus {outline:0;}
+
+/* education */
+#education {
+  background-color: gray;
+  padding-top: 30px;
+}
+
+#ucscImg {
+  height: 320px;
+  width: 500px;
+}
+
+#ucscSite {
+  background-color: transparent;
+  border: 1px solid gold;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+#ucscSite:hover{
+  background-color: blue;
+}
+
+.table {
+  margin-top: 5%;
+  text-align: center;
+}
+
+/* skills */
+#skills {
+  background-color: #cc8c55;
+  padding-top: 30px;
+}
+
+.specSkill {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 15px;
+  padding-top: 35px;
+  /* float: left; */
+  border: 2px solid white;
+  background-color: #cc8c55;
+}
+
+/* Projects */
+#projects {
+  background-color: gray;
+  padding-top: 30px;
+}
+
+#tssSite {
+  background-color: transparent;
+  border: 1px solid gold;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+#tssSite:hover{
+  background-color: blue;
+}
+
+#tssImg {
+  width: 500px;
+  height: 330px;
+}
+
+#webSite {
+  background-color: transparent;
+  border: 1px solid gold;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+#webSite:hover {
+  background-color: blue;
+}
+
+#webImg {
+  width: 500px;
+  height: 324px;
+}
+
+/* knowMore */
+.contact-block {
+  width: 50px;
+  height: 50px;
+  float: center;
+  padding-top: 6px;
+}
+
+#linkLogo {
+  color: white;
+}
+
+.container-fluid {
+  padding-bottom: 5%;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+body {
+  position: relative;
+  font-family: 'Roboto Mono', serif;
+}
