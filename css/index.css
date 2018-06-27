@@ -88,6 +88,27 @@
   padding-top: 30px;
 }
 
+#tipsyImg {
+  width: 550px;
+  height: 330px;
+}
+
+#sankeySite {
+  background-color: transparent;
+  border: 1px solid gold;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+#sankeySite:hover {
+  background-color: blue;
+}
+
+#sankeyImg {
+  width: 530px;
+  height: 340px;
+}
+
 #tssSite {
   background-color: transparent;
   border: 1px solid gold;
