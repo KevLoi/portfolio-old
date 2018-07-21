@@ -45,8 +45,8 @@
 }
 
 #ucscImg {
-  height: 320px;
-  width: 500px;
+  width: 100%;
+  height: auto;
 }
 
 #ucscSite {
@@ -89,8 +89,8 @@
 }
 
 #tipsyImg {
-  width: 550px;
-  height: 330px;
+  width: 100%;
+  height: auto;
 }
 
 #sankeySite {
@@ -105,8 +105,8 @@
 }
 
 #sankeyImg {
-  width: 530px;
-  height: 340px;
+  width: 100%;
+  height: auto;
 }
 
 #tssSite {
@@ -121,8 +121,8 @@
 }
 
 #tssImg {
-  width: 500px;
-  height: 330px;
+  width: 100%;
+  height: auto;
 }
 
 #webSite {
@@ -137,8 +137,8 @@
 }
 
 #webImg {
-  width: 500px;
-  height: 324px;
+  width: 100%;
+  height: auto;
 }
 
 /* knowMore */
