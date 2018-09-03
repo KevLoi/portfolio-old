@@ -36,11 +36,14 @@
   font-size: 60px;
 }
 
-#start:focus {outline:0;}
+#start:click {
+  outline: 0;
+  border: none;
+}
 
 /* education */
 #education {
-  background-color: gray;
+  background-color: #d6f1ff;
   padding-top: 30px;
 }
 
@@ -50,14 +53,7 @@
 }
 
 #ucscSite {
-  background-color: transparent;
-  border: 1px solid gold;
-  color: gold;
   margin-bottom: 10px;
-}
-
-#ucscSite:hover{
-  background-color: blue;
 }
 
 .table {
@@ -67,25 +63,23 @@
 
 /* skills */
 #skills {
-  background-color: #cc8c55;
+  background-color: #dbdbdb;
   padding-top: 30px;
-}
-
-.specSkill {
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  margin: 15px;
-  padding-top: 35px;
-  /* float: left; */
-  border: 2px solid white;
-  background-color: #cc8c55;
 }
 
 /* Projects */
 #projects {
-  background-color: gray;
+  background-color: #d6d7ff;
   padding-top: 30px;
+}
+
+#ameritechImg {
+  width: 100%;
+  height: auto;
+}
+
+#ameritechSite {
+  margin-bottom: 10px;
 }
 
 #tipsyImg {
@@ -94,14 +88,7 @@
 }
 
 #sankeySite {
-  background-color: transparent;
-  border: 1px solid gold;
-  color: gold;
   margin-bottom: 10px;
-}
-
-#sankeySite:hover {
-  background-color: blue;
 }
 
 #sankeyImg {
@@ -110,14 +97,7 @@
 }
 
 #tssSite {
-  background-color: transparent;
-  border: 1px solid gold;
-  color: gold;
   margin-bottom: 10px;
-}
-
-#tssSite:hover{
-  background-color: blue;
 }
 
 #tssImg {
@@ -126,14 +106,7 @@
 }
 
 #webSite {
-  background-color: transparent;
-  border: 1px solid gold;
-  color: gold;
   margin-bottom: 10px;
-}
-
-#webSite:hover {
-  background-color: blue;
 }
 
 #webImg {
@@ -152,6 +125,26 @@
 #linkLogo {
   color: white;
 }
+
+#backToTop {
+  margin-top: 40px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 60px;
+}
+
+#backToTop:hover {
+  font-size: 70px;
+}
+
+/* d3.js css */
+.chart-container{
+    padding:25px;
+    float:left;
+}
+/* end d3.js css */
 
 .container-fluid {
   padding-bottom: 5%;
