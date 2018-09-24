@@ -23,6 +23,7 @@
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
 
     <link rel="stylesheet" type="text/css" href="css/index.css">
 
@@ -32,208 +33,238 @@
   </head>
   <body>
 
-    <!-- jumbotron -->
-    <div class="jumbotron jumbotron-fluid paral paralsec" id="home">
-      <div class="container fade">
-        <img src="Photos/profile-1.jpg" class="rounded-circle mx-auto d-block" alt="Hello World!" id="profile">
-        <h1 class="display-1">Kevin Loi</h1>
-        <h3>Student @ UC Santa Cruz | Freelance Web Developer</h4>
-        <p id="copyright"> Copyright &copy; Kevin Loi </p>
-        <button type="button" class="btn" id="start"><i class="far fa-hand-point-down"></i></button>
-      </div>
-    </div>
+    <div class="tab-content">
 
-    <!-- education -->
-    <div class="container-fluid" id="education">
-      <div class="container">
-        <div class="title fade">
-          <h1 class="display-3"><bold>Education</bold></h1>
-          <h4>See what I've learned so far</h1>
-        </div>
-        <div class="row fade" style="justify-content: center">
-          <div class="col-xs-12 col-sm-6" style="text-align: center">
-            <h3>University of California<br />Santa Cruz</h3>
-            <hr>
-            <p>Expected Graduation: June 2019</p>
-            <p>Major: Computer Science (Bachelor's)</p>
-            <p>Minor: Technology & Information Management</p>
-            <br>
-            <a href="https://www.ucsc.edu/" role="button" class="btn btn-outline-info" id="ucscSite" target="_blank">Visit Website</a>
-          </div>
-          <div class="col-xs-12 col-sm-6" style="text-align: center">
-            <img src="Photos/ucscImg.jpg" class="rounded" alt="..." id="ucscImg">
-          </div>
-        </div>
-        <div class="table-responsive-sm fade">
-          <table class="table">
-            <thead>
-              <tr class="table-active"><th scope="col"><h3>Completed Courses</h3></th></tr>
-            </thead>
-            <tbody>
-              <tr class="table-active"><th scope="col"><i class="fas fa-code"></i> Advanced Programming</th></tr>
-              <tr class="table-active"><th scope="col"><i class="far fa-file-code"></i> Algorithms & Abstract Data Types</th></tr>
-              <tr class="table-active"><th scope="col"><i class="far fa-file-alt"></i> Computational Models</th></tr>
-              <tr class="table-active"><th scope="col"><i class="fas fa-laptop"></i> Computer Systems/Assembly Language</th></tr>
-              <tr class="table-active"><th scope="col"><i class="fab fa-python"></i> Introduction to Computer Networks</th></tr>
-              <tr class="table-active"><th scope="col"><i class="fab fa-python"></i> Introduction to Programming in Python</th></tr>
-              <tr class="table-active"><th scope="col"><i class="fas fa-percent"></i> Probability and Statistics for Engineers</th></tr>
-              <tr class="table-active"><th scope="col"><i class="fab fa-js-square"></i> Web Applications</th></tr>
-              <tr class="table-active"><th scope="col"><i class="fab fa-js-square"></i> Data Programming for Visualization (D3.js)</th></tr>
-              <tr class="table-active"><th scope="col"><i class="fas fa-database"></i> Introduction to Database Management</th></tr>
-              <tr class="table-active"><th scope="col"><i class="fas fa-code-branch"></i> Software Engineering</th></tr>
-            </tbody>
-          </table>
+      <!-- jumbotron -->
+      <div class="jumbotron jumbotron-fluid paral paralsec" id="home">
+        <div class="container fade">
+          <img src="Photos/profile-2.jpg" class="rounded-circle mx-auto d-block" alt="Hello World!" id="profile">
+          <h1 class="display-1">Kevin Loi</h1>
+          <h3>Student @ UC Santa Cruz | Freelance Web Developer</h3>
+          <p id="copyright"> Copyright &copy; Kevin Loi </p>
+          <button type="button" class="btn" id="start"><i class="far fa-hand-point-down"></i></button>
         </div>
       </div>
-    </div>
 
-    <!-- Skills -->
-    <div class="container-fluid" id="skills" onload=()>
-        <div class=container>
+      <!-- education -->
+      <div class="container-fluid" id="education">
+        <div class="container">
           <div class="title fade">
-            <h1 class="display-3">Skills</h1>
-            <h4>I've had hands on experience with these</h4>
+            <h1 class="display-3"><bold>Education</bold></h1>
+            <!-- <h4>See what I've learned so far</h4> -->
           </div>
-          <div class="row fade justify-content-around">
-              <div id="chart0" class="chart-container col-xs-3" ></div> <!-- javascript -->
-              <div id="chart1" class="chart-container col-xs-3"></div> <!-- python -->
-              <div id="chart2" class="chart-container col-xs-3"></div> <!-- html -->
-              <div id="chart3" class="chart-container col-xs-3"></div> <!-- nodejs -->
-              <div id="chart4" class="chart-container col-xs-3"></div> <!-- bootstrap -->
-              <div id="chart5" class="chart-container col-xs-3"></div> <!-- jquery -->
-              <div id="chart6" class="chart-container col-xs-3"></div> <!-- mongodb -->
-              <div id="chart7" class="chart-container col-xs-3"></div> <!-- expressjs -->
-              <div id="chart8" class="chart-container col-xs-3"></div> <!-- mysql -->
-              <div id="chart9" class="chart-container col-xs-3"></div> <!-- nosql -->
-              <div id="chart10" class="chart-container col-xs-3"></div> <!-- postgresql -->
-              <div id="chart11" class="chart-container col-xs-3"></div> <!-- git -->
-              <div id="chart12" class="chart-container col-xs-3"></div> <!-- d3js -->
-              <div id="chart13" class="chart-container col-xs-3"></div> <!-- swift4 -->
-              <div id="chart14" class="chart-container col-xs-3"></div> <!-- reactjs -->
+          <div class="row fade" style="justify-content: center">
+            <div class="col-xs-12 col-sm-6" style="text-align: center">
+              <h3>University of California<br />Santa Cruz</h3>
+              <hr>
+              <p>Expected Graduation: June 2019</p>
+              <p>Major: Computer Science (Bachelor's)</p>
+              <p>Minor: Technology & Information Management</p>
+              <br>
+              <a href="https://www.ucsc.edu/" role="button" class="btn btn-outline-info" id="ucscSite" target="_blank">Visit Website</a>
+            </div>
+            <div class="col-xs-12 col-sm-6" style="text-align: center">
+              <img src="Photos/ucscImg.jpg" class="rounded" alt="..." id="ucscImg">
+            </div>
           </div>
-        </div>
-    </div>
-
-    <!-- Projects -->
-    <div class="container-fluid" id="projects">
-      <div class="container">
-        <div class="title fade">
-          <h1 class="display-3">Projects</h1>
-          <h4>Just some projects I have worked on</h4>
-        </div>
-        <div class="row fade">
-          <div class="col-xs-12 col-sm-6">
-            <img src="Photos/acsSite.png" class="rounded " alt="..." id="ameritechImg">
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <h3>Ameritech Computer Services</h3>
-            <h6>A company site</h6>
-            <p>This web application provides all the information about Ameritech Computer Services. Users are able to learn about the company and contact the company through a series of forms, depending on the situation.</p>
-            <p>As an individual project, I spent the summer refactoring the current website. I used Handlbars.JS for templating, while using Node.JS and Express.JS for building the Web Server. Due to company reasons, the website is not being used currently. For practice, I also recreated the entire front end as another personal project using React.JS. </p>
-            <a href="https://ameritechcomputer.herokuapp.com" role="button" class="btn btn-outline-info" id="ameritechSite" target="_blank">Visit Website</a>
-          </div>
-        </div>
-        <br />
-        <hr />
-        <br />
-        <div class="row fade">
-          <div class="col-xs-12 col-sm-6">
-            <h3>Tipsy Trials (iOS)</h3>
-            <h6>Drunk testing iOS application</h6>
-            <p>An iOS application that allow users to test their cognitive skills while under the influence. Users are able to create a profile, save their score, and play a series of games.</p>
-            <p>A team of 5 that built this iOS application using Xcode 9 and Swift 4. I contributed by implementing Firebase, writing scripts to read and write data from the Firebase Database, creating a timer as the user's score, and creating the Profile Page.</p>
-            <a href="https://bitbucket.org/xdiaz1996/tipsy-ios/src/master/" role="button" class="btn btn-outline-info" id="tssSite" target="_blank">Visit Website</a>
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <img src="Photos/tipsyTrials.png" class="rounded " alt="..." id="tipsyImg">
-          </div>
-        </div>
-        <br />
-        <hr />
-        <br />
-        <div class="row fade">
-          <div class="col-xs-12 col-sm-6">
-            <img src="Photos/sankeyDiagram.png" class="rounded" alt="..." id="sankeyImg">
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <h3>Cannabis: Emotions & Medical Relief</h3>
-            <h6>Website displaying different Cannabis Strains</h6>
-            <p>A website that displays Cannabis strains in Santa Cruz, using a Sankey Diagram. Each strain is linked to their emotional effects as well as medical purposes.</p>
-            <p>A team of 4 that built the website using HTML, CSS, JavaScript, and D3.js. I contributed to web scraping for data, styling the page, citing our sources, making the nodes clickable, and highlighting links that correspond to nodes that were clicked.</p>
-            <a href="https://shihwesley.github.io/CMPS165-Final-Presentation/index.html" role="button" class="btn btn-outline-info" id="tssSite" target="_blank">Visit Website</a>
-          </div>
-        </div>
-        <br>
-        <hr>
-        <br>
-        <div class="row fade">
-          <div class="col-xs-12 col-sm-6">
-            <h3>Starving Slug</h3>
-            <h6>A recipe sharing website</h6>
-            <p>A web application that allows users to share their recipes. Users are also able to search for recipes, and leave comments and ratings under others' recipes.</p>
-            <p>A team of 6 that built this web application using MEAN Stack (MongoDB, ExpressJS, Angular5, NodeJS). I contributed by writing Unit Tests, functions, and models for the API server in NodeJS.</p>
-            <a href="http://starvingslug.com" role="button" class="btn btn-outline-info" id="tssSite" target="_blank">Visit Website</a>
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <img src="Photos/StarvingSlug.png" class="rounded " alt="..." id="tssImg">
-          </div>
-        </div>
-        <br>
-        <hr>
-        <br>
-        <div class="row fade">
-          <div class="col-xs-12 col-sm-6">
-            <img src="Photos/Portfolio.png" class="rounded" alt="..." id="webImg">
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <h3>Web Portfolio</h3>
-            <h6>My personal website</h6>
-            <p>Written purely in HTML, CSS, JavaScript, and Bootstrap. Displays my education, skills, projects and experience. Links to my GitHub, LinkedIn, and Resume</p>
-            <p>This is my third time recreating my website. The reason for this is because I did not really like my prior designs. Also, it is good practice for my front-end skills.</p>
-            <button type="button" role="button" class="btn btn-outline-info" id="webSite">Visit Website</button>
+          <div class="table-responsive-sm fade">
+            <table class="table">
+              <thead>
+                <tr class="table-active"><th scope="col"><h3>Completed Courses</h3></th></tr>
+              </thead>
+              <tbody>
+                <tr class="table-active"><th scope="col"><i class="fas fa-code"></i> Advanced Programming</th></tr>
+                <tr class="table-active"><th scope="col"><i class="far fa-file-code"></i> Algorithms & Abstract Data Types</th></tr>
+                <tr class="table-active"><th scope="col"><i class="far fa-file-alt"></i> Computational Models</th></tr>
+                <tr class="table-active"><th scope="col"><i class="fas fa-laptop"></i> Computer Systems/Assembly Language</th></tr>
+                <tr class="table-active"><th scope="col"><i class="fab fa-python"></i> Introduction to Computer Networks</th></tr>
+                <tr class="table-active"><th scope="col"><i class="fab fa-python"></i> Introduction to Programming in Python</th></tr>
+                <tr class="table-active"><th scope="col"><i class="fas fa-percent"></i> Probability and Statistics for Engineers</th></tr>
+                <tr class="table-active"><th scope="col"><i class="fab fa-js-square"></i> Web Applications</th></tr>
+                <tr class="table-active"><th scope="col"><i class="fab fa-js-square"></i> Data Programming for Visualization (D3.js)</th></tr>
+                <tr class="table-active"><th scope="col"><i class="fas fa-database"></i> Introduction to Database Management</th></tr>
+                <tr class="table-active"><th scope="col"><i class="fas fa-code-branch"></i> Software Engineering</th></tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Know More -->
-    <div class="jumbotron jumbotron-fluid paral paralsec" id="knowMore">
-      <div class="container fade">
-        <p class="display-4">Want to know more?<br /> Click on one!</p>
-        <hr style="border: 1px solid white">
-        <br>
-        <div class="row justify-content-around" style="padding-left: 15px">
-            <div class="col-sm-2" style="margin-bottom: 10px">
-                <a href="https://www.github.com/KevLoi" target="_blank" id="linkLogo">
-                    <div class="d-inline rounded contact-block">
-                        <i class="fab fa-3x fa-github"></i>
-                    </div>
-                </a>
+      <!-- Skills -->
+      <div class="container-fluid" id="skills" onload=()>
+          <div class=container>
+            <div class="title fade">
+              <h1 class="display-3">Skills</h1>
+              <!-- <h4>I've had hands on experience with these</h4> -->
             </div>
-            <div class="col-sm-2" style="margin-bottom: 10px">
-                <a href="KevinLoiResume.pdf" target="_blank" id="linkLogo">
-                    <div class="d-inline rounded contact-block">
-                        <i class="fas fa-3x fa-file-alt"></i>
-                    </div>
-                </a>
+            <div class="row fade justify-content-around">
+                <div id="chart0" class="chart-container col-xs-3" ></div> <!-- javascript -->
+                <div id="chart1" class="chart-container col-xs-3"></div> <!-- python -->
+                <div id="chart2" class="chart-container col-xs-3"></div> <!-- html -->
+                <div id="chart3" class="chart-container col-xs-3"></div> <!-- nodejs -->
+                <div id="chart4" class="chart-container col-xs-3"></div> <!-- bootstrap -->
+                <div id="chart5" class="chart-container col-xs-3"></div> <!-- jquery -->
+                <div id="chart6" class="chart-container col-xs-3"></div> <!-- mongodb -->
+                <div id="chart7" class="chart-container col-xs-3"></div> <!-- expressjs -->
+                <div id="chart8" class="chart-container col-xs-3"></div> <!-- mysql -->
+                <div id="chart9" class="chart-container col-xs-3"></div> <!-- nosql -->
+                <div id="chart10" class="chart-container col-xs-3"></div> <!-- postgresql -->
+                <div id="chart11" class="chart-container col-xs-3"></div> <!-- git -->
+                <div id="chart12" class="chart-container col-xs-3"></div> <!-- d3js -->
+                <div id="chart13" class="chart-container col-xs-3"></div> <!-- swift4 -->
+                <div id="chart14" class="chart-container col-xs-3"></div> <!-- reactjs -->
             </div>
-            <div class="col-sm-2" style="margin-bottom: 10px">
-                <a href="https://www.linkedin.com/in/Kevin-Loi" target="_blank" id="linkLogo">
-                    <div class="d-inline rounded contact-block">
-                        <i class="fab fa-3x fa-linkedin-in"></i>
-                    </div>
-                </a>
+          </div>
+      </div>
+
+      <!-- Projects -->
+      <div class="container-fluid" id="projects">
+        <div class="container">
+          <div class="title fade">
+            <h1 class="display-3">Projects</h1>
+            <!-- <h4>Just some projects I have worked on</h4> -->
+          </div>
+          <div class="row fade">
+            <div class="col-xs-12 col-sm-6">
+              <img src="Photos/acsSite.png" class="rounded " alt="..." id="ameritechImg">
             </div>
-        </div>
-        <div class="row" style="margin-bottom: -50px">
-            <div class="col align-self-center">
-                <button type="button" class="btn" id="backToTop"><i class="far fa-hand-point-up"></i></button>
+            <div class="col-xs-12 col-sm-6">
+              <h3>Ameritech Computer Services</h3>
+              <h6>A company site</h6>
+              <p>This web application provides all the information about Ameritech Computer Services. Users are able to learn about the company and contact the company through a series of forms, depending on the situation.</p>
+              <p>As an individual project, I spent the summer refactoring the current website. I used Handlbars.JS for templating, while using Node.JS and Express.JS for building the Web Server. Due to company reasons, the website is not being used currently. For practice, I also recreated the entire front end as another personal project using React.JS. </p>
+              <a href="https://ameritechcomputer.herokuapp.com" role="button" class="btn btn-outline-info" id="ameritechSite" target="_blank">Visit Website</a>
             </div>
+          </div>
+          <br />
+          <hr />
+          <br />
+          <div class="row fade">
+            <div class="col-xs-12 col-sm-6">
+              <h3>Tipsy Trials (iOS)</h3>
+              <h6>Drunk testing iOS application</h6>
+              <p>An iOS application that allow users to test their cognitive skills while under the influence. Users are able to create a profile, save their score, and play a series of games.</p>
+              <p>A team of 5 that built this iOS application using Xcode 9 and Swift 4. I contributed by implementing Firebase, writing scripts to read and write data from the Firebase Database, creating a timer as the user's score, and creating the Profile Page.</p>
+              <a href="https://bitbucket.org/xdiaz1996/tipsy-ios/src/master/" role="button" class="btn btn-outline-info" id="tssSite" target="_blank">Visit Website</a>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <img src="Photos/tipsyTrials.png" class="rounded " alt="..." id="tipsyImg">
+            </div>
+          </div>
+          <br />
+          <hr />
+          <br />
+          <div class="row fade">
+            <div class="col-xs-12 col-sm-6">
+              <img src="Photos/sankeyDiagram.png" class="rounded" alt="..." id="sankeyImg">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <h3>Cannabis: Emotions & Medical Relief</h3>
+              <h6>Website displaying different Cannabis Strains</h6>
+              <p>A website that displays Cannabis strains in Santa Cruz, using a Sankey Diagram. Each strain is linked to their emotional effects as well as medical purposes.</p>
+              <p>A team of 4 that built the website using HTML, CSS, JavaScript, and D3.js. I contributed to web scraping for data, styling the page, citing our sources, making the nodes clickable, and highlighting links that correspond to nodes that were clicked.</p>
+              <a href="https://shihwesley.github.io/CMPS165-Final-Presentation/index.html" role="button" class="btn btn-outline-info" id="tssSite" target="_blank">Visit Website</a>
+            </div>
+          </div>
+          <br>
+          <hr>
+          <br>
+          <div class="row fade">
+            <div class="col-xs-12 col-sm-6">
+              <h3>Starving Slug</h3>
+              <h6>A recipe sharing website</h6>
+              <p>A web application that allows users to share their recipes. Users are also able to search for recipes, and leave comments and ratings under others' recipes.</p>
+              <p>A team of 6 that built this web application using MEAN Stack (MongoDB, ExpressJS, Angular5, NodeJS). I contributed by writing Unit Tests, functions, and models for the API server in NodeJS.</p>
+              <a href="http://starvingslug.com" role="button" class="btn btn-outline-info" id="tssSite" target="_blank">Visit Website</a>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <img src="Photos/StarvingSlug.png" class="rounded " alt="..." id="tssImg">
+            </div>
+          </div>
+          <!-- <br>
+          <hr>
+          <br>
+          <div class="row fade">
+            <div class="col-xs-12 col-sm-6">
+              <img src="Photos/Portfolio.png" class="rounded" alt="..." id="webImg">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <h3>Web Portfolio</h3>
+              <h6>My personal website</h6>
+              <p>Written purely in HTML, CSS, JavaScript, and Bootstrap. Displays my education, skills, projects and experience. Links to my GitHub, LinkedIn, and Resume</p>
+              <p>This is my third time recreating my website. The reason for this is because I did not really like my prior designs. Also, it is good practice for my front-end skills.</p>
+              <button type="button" role="button" class="btn btn-outline-info" id="webSite">Visit Website</button>
+            </div> -->
+          </div>
         </div>
       </div>
+
+      <!-- Volunteer -->
+      <div class="container-fluid" id="volunteer">
+        <div class="container">
+          <div class="title fade">
+            <h1 class="display-3">Volunteer</h1>
+            <!-- <h4>Volunteering is always a fun experience</h4> -->
+          </div>
+          <div class="row fade">
+            <div class="col-xs-12 col-sm-6">
+              <h1>TechCrunch Disrupt San Francisco 2018</h1>
+              <p>Volunteering was an amazing experience. My jobs at Disrupt were to assist with directions, scan badges into conference rooms and stages. Although they seemed like simple jobs, they allowed me to meet with people from all over the world and open my mind to new ideas.</p>
+              <p>I was able to explore the Startup Battlefield, listening to the newest ideas all over the world. I also was given the opportunity to listen to celebrities like Priscilla Chan and Mike Judge speak on stage. </p>
+              <p>Click the link to learn more about TechCrunch</p>
+              <a href="https://techcrunch.com/" role="button" class="btn btn-outline-info" id="disruptSite" target="_blank">Visit Website</a>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <img src="Photos/TechCrunch.jpg" class="rounded" alt="..." id="techCrunchImg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Know More -->
+      <div class="jumbotron jumbotron-fluid paral paralsec" id="knowMore">
+        <div class="container fade">
+          <p class="display-4">Want to know more?<br /> Click on one!</p>
+          <hr style="border: 1px solid white">
+          <br>
+          <div class="row justify-content-around" style="padding-left: 15px">
+              <div class="col-sm-2" style="margin-bottom: 10px">
+                  <a href="https://www.github.com/KevLoi" target="_blank" id="linkLogo">
+                      <div class="d-inline rounded contact-block">
+                          <i class="fab fa-3x fa-github"></i>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-sm-2" style="margin-bottom: 10px">
+                  <a href="KevinLoiResume.pdf" target="_blank" id="linkLogo">
+                      <div class="d-inline rounded contact-block">
+                          <i class="fas fa-3x fa-file-alt"></i>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-sm-2" style="margin-bottom: 10px">
+                  <a href="https://www.linkedin.com/in/Kevin-Loi" target="_blank" id="linkLogo">
+                      <div class="d-inline rounded contact-block">
+                          <i class="fab fa-3x fa-linkedin-in"></i>
+                      </div>
+                  </a>
+              </div>
+          </div>
+          <div class="row" style="margin-bottom: -50px">
+              <div class="col align-self-center">
+                  <button type="button" class="btn" id="backToTop"><i class="far fa-hand-point-up"></i></button>
+              </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+
 
     <script type="text/javascript" src="scripts/index.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
   </body>
 
 </html>

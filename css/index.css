@@ -2,7 +2,6 @@
 .jumbotron {
   text-align: center;
   color: white;
-  padding-bottom: 8%;
   margin-bottom: 0px;
 }
 
@@ -36,7 +35,7 @@
   font-size: 60px;
 }
 
-#start:click {
+#start:focus {
   outline: 0;
   border: none;
 }
@@ -112,6 +111,20 @@
 #webImg {
   width: 100%;
   height: auto;
+}
+
+/* volunteer */
+#volunteer {
+  padding-top: 30px;
+}
+
+#techCrunchImg {
+  width: 100%;
+  height: auto;
+}
+
+#disruptSite {
+  margin-bottom: 10px;
 }
 
 /* knowMore */
