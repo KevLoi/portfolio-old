@@ -133,7 +133,7 @@ $("#backToTop").click(function() {
                   // dx:-5
               })
               .style({
-                  fill:color[0],
+                  fill:'black',
                   'font-size':'14px'
 
               });
@@ -175,19 +175,19 @@ $("#backToTop").click(function() {
       setTimeout(animate, 150);
     }
 
-createChart('#chart0',80,'JavaScript');
-createChart('#chart1',60,'Python');
-createChart('#chart2',99,'HTML');
-createChart('#chart3',99,'Node.JS');
-createChart('#chart4',99,'Bootstrap');
-createChart('#chart5',75,'jQuery');
-createChart('#chart6',85,'MongoDB');
-createChart('#chart7',85,'Express.JS');
-createChart('#chart8',75,'MySQL');
-createChart('#chart9',70,'NoSQL');
-createChart('#chart10',80,'PostgreSQL');
-createChart('#chart11',90,'Git');
-createChart('#chart12',80,'D3.JS');
-createChart('#chart13',75,'Swift4');
-createChart('#chart14',75,'React.JS');
+createChart('#chart0',100,'JavaScript');
+createChart('#chart1',100,'Python');
+createChart('#chart2',100,'HTML');
+createChart('#chart3',100,'Node.JS');
+createChart('#chart4',100,'Bootstrap');
+createChart('#chart5',100,'jQuery');
+createChart('#chart6',100,'MongoDB');
+createChart('#chart7',100,'Express.JS');
+createChart('#chart8',100,'MySQL');
+createChart('#chart9',100,'NoSQL');
+createChart('#chart10',100,'PostgreSQL');
+createChart('#chart11',100,'Git');
+createChart('#chart12',100,'D3.JS');
+createChart('#chart13',100,'Swift4');
+createChart('#chart14',100,'React.JS');
 
